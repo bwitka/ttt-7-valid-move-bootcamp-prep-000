@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 
 def valid_move?(array, index_number)
-  if position_taken?(array, index_number) == false && array[index_number].between?(0, 8)
+  if position_taken?(array, index_number) == false && array.include
     true
   end
 end
