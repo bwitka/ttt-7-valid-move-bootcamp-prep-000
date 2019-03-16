@@ -4,7 +4,7 @@ def valid_move?(board, index)
   if position_taken? == false && board.include?(index)
     true
   else
-    true
+    false
   end
 end
 
