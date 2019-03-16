@@ -2,7 +2,7 @@
 
 def valid_move?(array, index_number)
   if position_taken?(array, index_number) == false && array.include?(index_number)
-    false
+    true
   end
 end
 
