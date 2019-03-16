@@ -2,6 +2,8 @@
 
 def valid_move?(array, index_number)
   if position_taken?
+    false
+  else
     true
   end
 end
